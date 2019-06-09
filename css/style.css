@@ -1,0 +1,194 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.sun {
+    width: 17%;
+    height: 17%;
+    position: absolute;
+    z-index: 100;
+    border-radius: 50%;
+    top: 5px;
+}
+
+#gameOver {
+    display: none;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    background-color: white;
+    z-index: 109;
+    background-image: url(../images/img/mn-monkey-crying-vector-7695397.jpg);
+    background-repeat: no-repeat;
+    position: absolute;
+    background-position-y: 100px;
+    background-position-x: 100px;
+    background-size: 320px;
+    font-family: cursive;
+
+}
+
+#gameOver h1 {
+    color: red;
+    font-size: 45px;
+    position: relative;
+    left: 50%;
+    top: 20%;
+
+}
+
+#gameOver h2 {
+    color: red;
+    font-size: 30px;
+    position: relative;
+    left: 59%;
+    top: 25%;
+
+}
+
+#container {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-size: 100% 110%;
+}
+
+#scoreHelp {
+    margin: auto;
+    width: 26%;
+    font-size: 25px;
+    font-family: cursive;
+}
+
+#branch {
+    position: absolute;
+    height: 2%;
+    width: 100%;
+    top: 17%;
+}
+
+.Monkey {
+    position: absolute;
+    height: 50%;
+    width: 23%;
+    top: 19%;
+    background: url('../images/img/Moni\ Monkey\ The\ Cunning.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#Monkey1 {
+    left: 13%;
+}
+
+#Monkey2 {
+    left: 40%;
+}
+
+#Monkey3 {
+    left: 67%;
+}
+
+.banana {
+    position: absolute;
+    top: 41%;
+    height: 10%;
+    width: 20%;
+    background-image: url('../images/img/banana.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 100;
+}
+
+#banana1 {
+    left: calc(15% + 8%/2 - 2%/2);
+}
+
+#banana2 {
+    left: calc(42% + 8%/2 - 2%/2);
+}
+
+#banana3 {
+    left: calc(69% + 8%/2 - 2%/2);
+}
+
+.bullseye {
+    display: none;
+    position: absolute;
+    bottom: 0px;
+    height: 15%;
+    width: 15%;
+    background: url(../images/img/banana2.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 11;
+}
+
+#bullseye1 {
+    left: calc(6% + 8%/2 - 7%/2);
+}
+
+#bullseye2 {
+    left: calc(40% + 8%/2 - 7%/2);
+}
+
+#bullseye3 {
+    left: calc(75% + 8%/2 - 7%/2);
+}
+
+#floor {
+    opacity: 0;
+    position: absolute;
+    height: 7%;
+    width: 100%;
+    bottom: 0;
+    z-index: 10;
+}
+
+#basket {
+    height: 100px;
+    width: 85px;
+    position: absolute;
+    bottom: 5px;
+    background: url('../images/img/box.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: center;
+    z-index: 11;
+}
+
+#score_1 {
+    position: absolute;
+    color: #424242;
+    font-size: 30px;
+    top: 45%;
+    left: 30%;
+}
+
+#restart {
+    transition: 1s ease-in-out;
+    display: none;
+    border: 0;
+    position: absolute;
+    height: 10%;
+    width: 20%;
+    background-color: rgb(235, 235, 3);
+    color: white;
+    top: 55%;
+    left: 50%;
+    border-radius: 20px;
+    font-size: 35px;
+    cursor: pointer;
+    z-index: 110;
+}
+
+.Fetus img{
+    position: absolute;
+    top: 70%;
+    height: 30%;
+}

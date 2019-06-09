@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>banana Game</title>
+  <link rel="icon" href="images/img/title image.png">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+  <!--Sun-->
+  <img src="Images/img/sun.jpg" class="sun">
+  <!--container id Control the screen size-->
+  <div id="container">
+    <div id="scoreHelp">
+      <!--Score and life-->
+       Score:
+       <span id="score">0</span> | Life:
+       <span id="life"></span> 
+     </div>
+     <div id="gameOver">
+         <h1>YOUR SCORE</h1><br>
+         <h2 id="gameOverScore">dddddd</h2>
+     </div>
+
+    <div id="branch"></div>
+    <!--Monkeys we Have 3 Monkeys-->
+    <div id="Monkey1" class="Monkey"></div>
+    <div id="Monkey2" class="Monkey"></div>
+    <div id="Monkey3" class="Monkey"></div>
+    <!--bananas we Have 3 bananas-->
+    <div id="banana1" class="banana" data-bullseye='1'></div>
+    <div id="banana2" class="banana" data-bullseye='2'></div>
+    <div id="banana3" class="banana" data-bullseye='3'></div>
+    <!--bullseyes we Have 3 bullseyes-->
+    <div id="bullseye1" class="bullseye"></div>
+    <div id="bullseye2" class="bullseye"></div>
+    <div id="bullseye3" class="bullseye"></div>
+    <!--basket and score in basket-->
+    <div id="basket">
+      <span id="score_1"></span>
+    </div>
+<!--floor hight-->
+    <div id="floor">
+    </div>
+  </div>
+<!--restart button-->
+  <button id="restart">Restart</button>
+
+  <!--Fetus and image-->
+  <div class="Fetus">
+    <img src="images/img/Fetus.jpg" class="w-100">
+  </div>
+
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
